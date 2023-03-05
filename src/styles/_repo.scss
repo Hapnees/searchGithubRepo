@@ -34,6 +34,9 @@
 }
 
 .repo__header__title {
+	max-width: 500px;
+	overflow: hidden;
+	text-overflow: ellipsis;
 	color: rgb(42, 159, 195);
 	font-size: 20px;
 	font-weight: 600;
