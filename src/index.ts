@@ -5,9 +5,7 @@ import { repoSearch } from './utils/repoSearch'
 import { inputOnBlur, inputOnInput } from './utils/formListeners'
 
 const initialForm = () => {
-	const octokit = new Octokit({
-		auth: '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',
-	})
+	const octokit = new Octokit()
 
 	if (!('form-search' in document.forms)) throw new Error('Форма не найдена')
 	const form = document.forms['form-search'] as IForm
