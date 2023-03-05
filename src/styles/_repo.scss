@@ -26,6 +26,7 @@
 	padding: 15px;
 }
 
+// HEADER
 .repo__header {
 	display: flex;
 	align-items: center;
@@ -52,6 +53,7 @@
 	cursor: default;
 }
 
+// DESCRIPTION
 .repo__descrip {
 	width: 600px;
 
@@ -63,6 +65,7 @@
 	border-radius: 6px;
 }
 
+// TOPICS
 .repo__container__topics {
 	display: flex;
 	align-items: center;
