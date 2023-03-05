@@ -1,0 +1,39 @@
+@import '_form';
+@import '_specials';
+@import '_repo';
+@import '_loader';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	list-style: none;
+	text-decoration: none;
+	outline: none;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	font-family: Roboto;
+	background-color: #121212;
+	color: #cfcfcf;
+}
+
+input {
+	color: #eaeaea;
+	font-family: Roboto;
+}
+
+main {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+}
